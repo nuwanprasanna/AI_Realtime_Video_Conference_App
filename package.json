@@ -1,0 +1,16 @@
+{
+  "name": "video-chat-mask-signaling",
+  "private": true,
+  "version": "1.0.0",
+  "description": "WebSocket signaling relay for the video_chat_mask WebRTC app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
